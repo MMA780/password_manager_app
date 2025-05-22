@@ -20,6 +20,6 @@ class PasswordEntry extends HiveObject {
     required this.title,
     required this.username,
     required this.password,
-    this.category = "General",
+    this.category = "عمومی", // پیش‌فرض فارسی
   });
 }

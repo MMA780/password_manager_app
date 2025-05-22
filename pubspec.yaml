@@ -1,7 +1,7 @@
 name: password_manager_app
 description: "A new Flutter project."
 publish_to: 'none'
-version: 0.1.0
+version: 1.0.0
 
 environment:
   sdk: ^3.7.2
@@ -13,8 +13,13 @@ dependencies:
   hive_flutter: ^1.1.0
   path_provider: ^2.1.5
   fl_chart: ^1.0.0
-  easy_localization: ^3.0.7
+  easy_localization: ^3.0.7+1
   flutter_staggered_animations: ^1.1.1
+  fluttertoast: ^8.2.12
+  cupertino_icons: ^1.0.8
+  random_string: ^2.3.1
+  password_strength_checker: ^1.2.4
+  animate_do: ^4.2.0 
 
 dev_dependencies:
   flutter_test:
